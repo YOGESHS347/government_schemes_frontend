@@ -160,7 +160,7 @@ form.addEventListener('submit', function(event) {
         console.log('Sending user data to backend:', userData);
         
         // Send the JSON data to your backend endpoint
-        fetch('http://localhost:5000/get-schemes', {
+        fetch('https://government-schemes-backend.onrender.com/get-schemes', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
